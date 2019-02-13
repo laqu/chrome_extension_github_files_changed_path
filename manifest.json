@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "version": "1.0.0",
+  "name": "Files Changed Path Copy",
+  "description": "Files Changed ページからファイルパスを取得",
+  "browser_action": {
+    "default_title": "Files Changed Path Copy",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "https://*/*"
+  ]
+}

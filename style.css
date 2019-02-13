@@ -1,0 +1,25 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-width: 400px;
+  padding: 1rem;
+}
+
+p.error {
+  text-align: center;
+  color: red;
+  font-size: 1.4rem;
+}
+
+ul#filelist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul#filelist li {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
