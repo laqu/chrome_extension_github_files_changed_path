@@ -5,21 +5,57 @@ html {
 body {
   min-width: 400px;
   padding: 1rem;
+  line-height: 1;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
-p.error {
+p#error {
   text-align: center;
   color: red;
   font-size: 1.4rem;
 }
 
+p#filecount {
+  font-size: 1.2rem;
+}
+
+button#copy {
+  -webkit-appearance: none;
+  border: none;
+  background-color: #2196f3;
+  color: white;
+  font-size: 1.4rem;
+  display: block;
+  padding: 1rem 0;
+  text-align: center;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  width: 100%;
+}
+
 ul#filelist {
+  border-radius: 4px;
   list-style: none;
   margin: 0;
   padding: 0;
+  border: solid 1px #dcdcdc;
 }
 
 ul#filelist li {
   font-size: 1.2rem;
   line-height: 1.6;
+  border-bottom: solid 1px #dcdcdc;
+  background-color: white;
+  padding: 0 0.5rem;
+}
+
+ul#filelist li:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+ul#filelist li:last-child {
+  border-bottom: none;
 }
