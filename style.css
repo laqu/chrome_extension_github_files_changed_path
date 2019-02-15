@@ -16,10 +16,6 @@ p#error {
   font-size: 1.4rem;
 }
 
-p#filecount {
-  font-size: 1.2rem;
-}
-
 button#copy {
   -webkit-appearance: none;
   border: none;
@@ -34,6 +30,7 @@ button#copy {
   cursor: pointer;
   outline: none;
   width: 100%;
+  margin-bottom: 15px;
 }
 
 ul#filelist {
