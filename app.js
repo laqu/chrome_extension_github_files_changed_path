@@ -6,8 +6,6 @@ chrome.runtime.onMessage.addListener(request => {
     li.innerText = file;
     ul.appendChild(li);
   });
-  document.querySelector('#filecount').innerHTML = `File Count: <strong>${list.length}</strong>`;
-
   const button = document.querySelector('#copy');
   button.addEventListener('click', copy);
 });
