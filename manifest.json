@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "name": "Files Changed Path Copy",
   "description": "Files Changed ページからファイルパスを取得",
+  "author": "whitebook",
+  "homepage_url": "https://github.com/laqu/chrome_extension_github_files_changed_path",
   "browser_action": {
     "default_title": "Files Changed Path Copy",
     "default_popup": "popup.html"
